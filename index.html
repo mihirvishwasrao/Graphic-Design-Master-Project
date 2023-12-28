@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: 'Futura', sans-serif; /* Use the appropriate font name for Futura if available, or a suitable fallback */
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      padding: 25px;
+    }
+
+    .image-container {
+      position: relative;
+      overflow: hidden;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .image-description {
+      position: absolute;
+      top: 200px;
+      /* Add some space from the top edge */
+      left: 100px;
+      /* Add some space from the left edge */
+      right: 100px;
+      /* Add some space from the right edge */
+      bottom: 200px;
+      /* Add some space from the bottom edge */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      background: rgba(255, 255, 255, 0.8);
+      padding: 50px;
+      /* Padding inside the description */
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      transition: opacity 0.3s ease-in-out;
+    }
+
+    .image-container:hover {
+      transform: scale(1.05);
+      /* Increase size on hover */
+    }
+
+    .image-container:hover .image-description {
+      opacity: 1;
+    }
+
+    .double-column {
+      grid-column: span 2;
+    }
+
+    .image-container:first-child {
+      grid-column: span 3;
+    }
+  </style>
+  <title>Graphic Design Master Project</title>
+</head>
+
+<body>
+  <div class="image-container">
+    <img src="images/14.png" alt="Image 1">
+    <div class="image-description">In this graphic design master project, the chosen focus was The Taj Mahal, a UNESCO
+      World Heritage Site in Agra. The objectives were: firstly, to design a diverse array of elements—New Yorker ads, a
+      letterhead, an information page, an envelope, a business card, a website landing page, a mobile application logo,
+      delivery van design, and landscape site signs—each showcasing the majestic essence of The Taj Mahal. Moreover, the
+      project aimed to intricately unify these distinct pieces, achieving a seamless synchronization. Ultimately, the
+      design was presented through a comprehensive summary sheet and a booklet.</div>
+  </div>
+  <div class="image-container">
+    <img src="images/2.png" alt="Image 2">
+    <div class="image-description">New Yorker Ad 01</div>
+  </div>
+  <div class="image-container">
+    <img src="images/3.png" alt="Image 3">
+    <div class="image-description">New Yorker Ad 02</div>
+  </div>
+  <div class="image-container">
+    <img src="images/4.png" alt="Image 4">
+    <div class="image-description">New Yorker Ad 03</div>
+  </div>
+  <div class="image-container">
+    <img src="images/5.png" alt="Image 5">
+    <div class="image-description">New Yorker Ad 04</div>
+  </div>
+  <div class="image-container double-column">
+    <img src="images/6.png" alt="Image 6">
+    <div class="image-description">Mockup of New Yorker Advertisements</div>
+  </div>
+  <div class="image-container">
+    <img src="images/7.png" alt="Image 7">
+    <div class="image-description">Letterhead</div>
+  </div>
+  <div class="image-container">
+    <img src="images/8.png" alt="Image 8">
+    <div class="image-description">Information Page</div>
+  </div>
+  <div class="image-container">
+    <img src="images/11.png" alt="Image 11">
+    <div class="image-description">Mockup of Mobile Application Logo</div>
+  </div>
+  <div class="image-container double-column">
+    <img src="images/9.png" alt="Image 9">
+    <div class="image-description">Mockup of Letterhead and Information Page</div>
+  </div>
+  <div class="image-container">
+    <img src="images/13.png" alt="Image 13">
+    <div class="image-description">Mockup of a Delivery Vehicle</div>
+  </div>
+  <div class="image-container">
+    <img src="images/12.png" alt="Image 12">
+    <div class="image-description">Website Landing Page with Site Signs</div>
+  </div>
+  <div class="image-container double-column">
+    <img src="images/10.png" alt="Image 10">
+    <div class="image-description">An Envelope and Business Cards</div>
+  </div>
+
+  <footer>
+    <p>Graphic Design Master Project by Mihir Vishwasrao.</p>
+    <p><a href="https://online.flippingbook.com/view/310738211/" target="_blank">Click to view the Booklet</a> | <a href="summary sheet.pdf" target="_blank">Click to view Summary Sheet</a>.</p>
+  </footer>
+
+</html>
+</body>
+</html>
